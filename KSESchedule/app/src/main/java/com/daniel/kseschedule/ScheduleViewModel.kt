@@ -48,6 +48,7 @@ class ScheduleViewModel(context: Context) {
 
     var groupIDs by mutableStateOf(emptyList<Int>())
 
+    ///Завантаження вибраних груп при перезапуску
     private fun loadGroupIDs(): List<Int> {
         return sharedPreferences.getString("UserGroups", "")
             ?.split(",")
@@ -55,12 +56,14 @@ class ScheduleViewModel(context: Context) {
             ?: emptyList()
     }
 
+    ///Збереження груп
     private fun saveGroupIDs(groupIDs: List<Int>) {
         sharedPreferences.edit()
             .putString("UserGroups", groupIDs.joinToString(","))
             .apply()
     }
 
+    ///Вибір групи
     fun toggleGroup(groupId: Int) {
         groupIDs = if (groupId in groupIDs) {
             groupIDs - groupId
@@ -70,6 +73,7 @@ class ScheduleViewModel(context: Context) {
         saveGroupIDs(groupIDs)
     }
 
+    ///Завантаження розкладу
     fun fetchSchedule() {
         groupIDs = loadGroupIDs()
         isLoading = true
@@ -83,6 +87,7 @@ class ScheduleViewModel(context: Context) {
         }
     }
 
+    //Витягування груп з файлу groups.txt в res/raw. Файл тимчасовий, поки не знайду норм спосіб шукати групи
     fun parseGroups(): List<Pair<Int, String>>? {
         return try {
             val content = readRawFile(R.raw.groups, cont)?.readText(Charsets.UTF_8)
@@ -115,6 +120,8 @@ class ScheduleViewModel(context: Context) {
         return tempFile
     }
 
+
+    ///Завантажує файл schedule.ics з сайту
     private suspend fun downloadICS(groupIDs: List<Int>): String? {
         return withContext(Dispatchers.IO) {
             try {
@@ -139,6 +146,7 @@ class ScheduleViewModel(context: Context) {
         return formatter.format(futureDate)
     }
 
+    ///Читає інфу з schedule.ics
     private fun parseICS(content: String): List<Pair<String, List<Event>>> {
         val events = mutableMapOf<String, MutableList<Event>>()
         var currentEvent: Event? = null
@@ -194,6 +202,7 @@ data class Group(val name: String, val id: Int) : Comparable<Group> {
     override fun compareTo(other: Group): Int = name.compareTo(other.name)
 }
 
+///Пошуковик для груп
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SearchView(
@@ -253,6 +262,7 @@ fun SearchView(
     }
 }
 
+///Рядок з групою
 @Composable
 fun GroupRow(group: Group, isSelected: Boolean, onClick: () -> Unit) {
     val icon = if (isSelected) Icons.Default.Clear else Icons.Default.Add

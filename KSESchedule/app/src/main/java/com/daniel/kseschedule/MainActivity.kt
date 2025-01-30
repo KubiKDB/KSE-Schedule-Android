@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
+///Місце відображення пар
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ScheduleView(viewModel: ScheduleViewModel) {
@@ -39,6 +39,7 @@ fun ScheduleView(viewModel: ScheduleViewModel) {
     var showSelection by remember { mutableStateOf(false) }
     var groups by remember { mutableStateOf(emptyList<Group>()) }
 
+    ///Витягування груп
     LaunchedEffect(Unit) {
         val parsedGroups = viewModel.parseGroups() ?: emptyList()
         groups = parsedGroups.map { (id, name) -> Group(name, id) }
@@ -46,6 +47,7 @@ fun ScheduleView(viewModel: ScheduleViewModel) {
     }
 
 
+    ///Верхній рядок
     Scaffold(
         topBar = {
             TopAppBar(title = { Text("KSE Schedule") }, actions = {
@@ -84,6 +86,7 @@ fun ScheduleView(viewModel: ScheduleViewModel) {
         }
     }
 
+    ///Місце вибору груп
     if (showSelection) {
         AlertDialog(
             containerColor = MaterialTheme.colorScheme.background,
