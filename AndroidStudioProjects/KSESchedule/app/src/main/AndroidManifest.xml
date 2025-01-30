@@ -9,7 +9,7 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/kse_schedule_icon"
-        android:label="Schedule"
+        android:label="Розклад"
         android:roundIcon="@mipmap/kse_schedule_icon_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KSESchedule"
@@ -17,7 +17,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="Schedule"
+            android:label="Розклад"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.KSESchedule">
             <intent-filter>
