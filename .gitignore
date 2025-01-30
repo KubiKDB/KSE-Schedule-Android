@@ -1,0 +1,9 @@
+# Ignore all .idea directories and everything inside them
+**/.idea/**
+
+# Same for .gradle
+**/.gradle/**
+
+# Local files
+local.properties
+/build
