@@ -4,4 +4,6 @@
 # Same for .gradle
 **/.gradle/**
 
+# Local files
+local.properties
 /build
