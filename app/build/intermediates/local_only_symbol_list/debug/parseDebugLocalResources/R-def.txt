@@ -1,0 +1,25 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
+color kse_schedule_icon_background
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+mipmap ic_launcher
+mipmap ic_launcher_round
+mipmap kse_schedule_icon
+mipmap kse_schedule_icon_foreground
+mipmap kse_schedule_icon_round
+raw groups
+string app_name
+style Theme.KSESchedule
+xml backup_rules
+xml data_extraction_rules

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#007AFF</color>
+    <color name="colorPrimaryDark">#005BB5</color>
+    <color name="kse_schedule_icon_background">#0C6ECA</color>
+    <color name="purple_200">#FF007AFF</color>
+    <color name="purple_500">#FF007AFF</color>
+    <color name="purple_700">#FF007AFF</color>
+    <color name="teal_200">#FF007AFF</color>
+    <color name="teal_700">#FF007AFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">KSE Schedule</string>
+    <style name="Theme.KSESchedule" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+    </style>
+</resources>
