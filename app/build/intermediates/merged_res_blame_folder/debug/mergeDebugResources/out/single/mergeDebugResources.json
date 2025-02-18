@@ -1,138 +1,138 @@
 [
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/mipmap-xxxhdpi_kse_schedule_icon_round.webp.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/mipmap-xxxhdpi/kse_schedule_icon_round.webp"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/drawable/ic_launcher_foreground.xml"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/mipmap-anydpi-v26_kse_schedule_icon.xml.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/mipmap-anydpi-v26/kse_schedule_icon.xml"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/mipmap-xxxhdpi_kse_schedule_icon_round.webp.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/mipmap-xxxhdpi/kse_schedule_icon_round.webp"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/mipmap-anydpi/ic_launcher_round.xml"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/mipmap-mdpi_kse_schedule_icon_round.webp.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/mipmap-mdpi/kse_schedule_icon_round.webp"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/mipmap-hdpi_kse_schedule_icon.webp.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/mipmap-hdpi/kse_schedule_icon.webp"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/mipmap-xhdpi_kse_schedule_icon_foreground.webp.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/mipmap-xhdpi/kse_schedule_icon_foreground.webp"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/mipmap-hdpi_kse_schedule_icon_foreground.webp.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/mipmap-hdpi/kse_schedule_icon_foreground.webp"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/mipmap-xxhdpi_kse_schedule_icon_round.webp.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/mipmap-xxhdpi/kse_schedule_icon_round.webp"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/raw_groups.txt.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/raw/groups.txt"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/xml_data_extraction_rules.xml.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/xml/data_extraction_rules.xml"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/drawable/ic_launcher_background.xml"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/mipmap-xhdpi_kse_schedule_icon_foreground.webp.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/mipmap-xhdpi/kse_schedule_icon_foreground.webp"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/xml_backup_rules.xml.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/xml/backup_rules.xml"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/mipmap-xhdpi_kse_schedule_icon_round.webp.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/mipmap-xhdpi/kse_schedule_icon_round.webp"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/mipmap-xhdpi_kse_schedule_icon.webp.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/mipmap-xhdpi/kse_schedule_icon.webp"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/mipmap-xxhdpi_kse_schedule_icon.webp.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/mipmap-xxhdpi/kse_schedule_icon.webp"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/mipmap-anydpi-v26_kse_schedule_icon_round.xml.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/mipmap-anydpi-v26/kse_schedule_icon_round.xml"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/mipmap-hdpi_kse_schedule_icon_round.webp.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/mipmap-hdpi/kse_schedule_icon_round.webp"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/mipmap-anydpi-v26_kse_schedule_icon.xml.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/mipmap-anydpi-v26/kse_schedule_icon.xml"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/raw_groups.txt.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/raw/groups.txt"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/mipmap-xxhdpi_kse_schedule_icon_round.webp.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/mipmap-xxhdpi/kse_schedule_icon_round.webp"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/mipmap-mdpi_kse_schedule_icon_foreground.webp.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/mipmap-mdpi/kse_schedule_icon_foreground.webp"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/xml_backup_rules.xml.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/mipmap-xxxhdpi_kse_schedule_icon.webp.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/mipmap-xxxhdpi/kse_schedule_icon.webp"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/mipmap-xxhdpi_kse_schedule_icon_foreground.webp.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/mipmap-xxhdpi/kse_schedule_icon_foreground.webp"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/mipmap-anydpi/ic_launcher.xml"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/mipmap-mdpi_kse_schedule_icon.webp.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/mipmap-mdpi/kse_schedule_icon.webp"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/mipmap-xhdpi_kse_schedule_icon.webp.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/mipmap-xhdpi/kse_schedule_icon.webp"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/mipmap-hdpi_kse_schedule_icon_foreground.webp.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/mipmap-hdpi/kse_schedule_icon_foreground.webp"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/mipmap-xxxhdpi_kse_schedule_icon_foreground.webp.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/mipmap-xxxhdpi/kse_schedule_icon_foreground.webp"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/mipmap-xxhdpi_kse_schedule_icon_foreground.webp.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/mipmap-xxhdpi/kse_schedule_icon_foreground.webp"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/mipmap-xxxhdpi_kse_schedule_icon.webp.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/mipmap-xxxhdpi/kse_schedule_icon.webp"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/mipmap-xhdpi_kse_schedule_icon_round.webp.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/mipmap-xhdpi/kse_schedule_icon_round.webp"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/mipmap-anydpi-v26_kse_schedule_icon_round.xml.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/mipmap-anydpi-v26/kse_schedule_icon_round.xml"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/mipmap-hdpi_kse_schedule_icon_round.webp.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/mipmap-hdpi/kse_schedule_icon_round.webp"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/mipmap-xxxhdpi_kse_schedule_icon_foreground.webp.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/mipmap-xxxhdpi/kse_schedule_icon_foreground.webp"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/mipmap-mdpi_kse_schedule_icon_round.webp.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/mipmap-mdpi/kse_schedule_icon_round.webp"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/mipmap-hdpi_kse_schedule_icon.webp.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/mipmap-hdpi/kse_schedule_icon.webp"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/mipmap-mdpi_kse_schedule_icon.webp.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/mipmap-mdpi/kse_schedule_icon.webp"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/mipmap-anydpi_ic_launcher.xml.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/mipmap-anydpi/ic_launcher.xml"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/mipmap-mdpi_kse_schedule_icon_foreground.webp.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/mipmap-mdpi/kse_schedule_icon_foreground.webp"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/mipmap-xxhdpi_kse_schedule_icon.webp.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/mipmap-xxhdpi/kse_schedule_icon.webp"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.daniel.kseschedule.app-debug-44:/mipmap-anydpi_ic_launcher_round.xml.flat",
-        "source": "com.daniel.kseschedule.app-main-46:/mipmap-anydpi/ic_launcher_round.xml"
+        "merged": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-debug-44:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/danielbond/.gradle/daemon/8.10.2/com.daniel.kseschedule.app-main-46:/drawable/ic_launcher_foreground.xml"
     }
 ]

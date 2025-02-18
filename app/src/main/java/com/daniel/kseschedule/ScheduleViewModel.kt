@@ -39,8 +39,11 @@ import androidx.lifecycle.viewModelScope
 import com.daniel.kseschedule.R
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
+import java.net.HttpURLConnection
 
 class ScheduleViewModel(context: Context) {
+    private val groupDocLink = "https://docs.google.com/document/d/1rRdB-hgCNrXU8YVyqTrTpE2WqbJFDIYgBNI3oCQthMo/export?format=txt"
     var cont = context
     var scheduleEntries = mutableStateListOf<Pair<String, List<Event>>>()
     var isLoading by mutableStateOf(false)
@@ -88,17 +91,33 @@ class ScheduleViewModel(context: Context) {
         }
     }
 
-    //Витягування груп з файлу groups.txt в res/raw. Файл тимчасовий, поки не знайду норм спосіб шукати групи
+    //Витягування груп з файлу. Файл тимчасовий, поки не знайду норм спосіб шукати групи
     fun parseGroups(): List<Pair<Int, String>>? {
         return try {
-            val content = readRawFile(R.raw.groups, cont)?.readText(Charsets.UTF_8)
+            val content = loadGroupsFromCloudStorage()
             content?.lines()?.mapNotNull { line ->
                 val parts = line.split(" : ")
                 if (parts.size == 2) parts[0].trim().toIntOrNull()?.let { id -> id to parts[1].trim() } else null
             }
         } catch (e: Exception) {
-            println("Error reading file: ${e.localizedMessage}")
+            println("Error fetching data: ${e.localizedMessage}")
             null
+        }
+    }
+
+    fun loadGroupsFromCloudStorage(): String? {
+        return runBlocking {
+            try {
+                withContext(Dispatchers.IO) {
+                    val url = URL(groupDocLink)
+                    val connection = url.openConnection() as HttpURLConnection
+                    connection.requestMethod = "GET"
+                    connection.inputStream.bufferedReader().use { it.readText() }
+                }
+            } catch (e: Exception) {
+                println("Error fetching document: ${e.message}")
+                null
+            }
         }
     }
 

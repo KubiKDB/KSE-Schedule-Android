@@ -167,7 +167,6 @@ mipmap ic_launcher_round
 mipmap kse_schedule_icon
 mipmap kse_schedule_icon_foreground
 mipmap kse_schedule_icon_round
-raw groups
 string androidx_startup
 string app_name
 string close_drawer

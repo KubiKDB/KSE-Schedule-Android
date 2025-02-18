@@ -18,7 +18,6 @@ mipmap ic_launcher_round
 mipmap kse_schedule_icon
 mipmap kse_schedule_icon_foreground
 mipmap kse_schedule_icon_round
-raw groups
 string app_name
 style Theme.KSESchedule
 xml backup_rules
